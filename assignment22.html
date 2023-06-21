@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<div class="container mt-3 border border-primary rounded p-3" style="background-color: mintcream;">
+		<form>
+			<div class="row mb-3">
+				<div class="col-sm-7">
+					<div class="input-group">
+						<div class="input-group-text">@</div>
+						<input type="text" class="form-control border border-primary" name="city" placeholder="City" aria-label="city">
+					</div>
+				</div>
+				<div class="col-sm">
+					<input type="text" class="form-control border border-primary" name="state" placeholder="State" aria-label="State">
+				</div>
+				<div class="col-sm">
+					<label class="visually-hidden" for="autoSizingSelect">Preference</label>
+					<select class="form-select border border-primary" id="autoSizingSelect">
+						<option selected>Choose...</option>
+						<option value="1">One</option>
+						<option value="2">Two</option>
+					</select>
+				</div>
+			</div>
+			<br>
+			<div class="row align-items-center">
+					<div class="col-sm-3">
+						<h6>Email</h6>
+					</div>
+					<div class="col-sm-9">
+						<div class="input-group">
+							<input class="form-control" type="text" name="un" id="usn">
+						</div>
+					</div>
+			</div>
+			<br>
+			<div class="row align-items-center">
+					<div class="col-sm-3">
+						<h6>Password</h6>
+					</div>
+					<div class="col-sm-9">
+						<div class="input-group">
+							<input class="form-control" type="text" name="pswd" id="pswd">
+						</div>
+					</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-sm-3">
+					<h6>Radios</h6>
+				</div>
+				<div class="col-sm-9">
+					<br><br>
+					<div class="form-check">
+						<label class="form-check-label" for="rb1">First Radio</label>
+						<input type="radio" name="option" id="rb1" class="form-check-input" checked>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label" for="rb2">Second Radio</label>
+						<input type="radio" name="option" id="rb2" class="form-check-input">
+					</div>
+					<div class="form-check">
+						<label class="form-check-label" for="rb3">Third Disabled Radio</label>
+						<input type="radio" name="option" id="rb3" class="form-check-input" disabled>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row align-items-center">
+				<div class="col-sm-3">
+				</div>
+				<div class="col-sm-9">
+					<div class="form-check">
+						<label class="form-check-label" for="cb1">Example Checkbox</label>
+						<input type="checkbox" name="cb1" id="cb1" class="form-check-input">
+					</div>
+				</div>
+			</div>
+			<br>
+			<button type="button" class="btn btn-primary">Sign in</button>
+		</form>
+	</div>
+</body>
+</html>
